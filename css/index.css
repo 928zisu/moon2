@@ -1,0 +1,335 @@
+
+.main .main-contant {
+    position: absolute;
+    font-size: 49px;
+    line-height: 60px;
+    font-weight: 100;
+    top: 250px;
+    left: 40%;
+}
+
+.young {
+    overflow: hidden;
+    height: 570px;
+}
+
+.young .young-box {
+    height: 570px;
+    position: relative;
+    overflow: hidden;
+}
+
+.young .young-box li {
+    display: inline-block;
+    position: absolute;
+    width: 185px;
+}
+
+.young .young-box li img {
+    width: 100%;
+}
+
+.young .red {
+    left: 10px;
+}
+
+.young .orange {
+    left: 200px;
+}
+
+.young .yellow {
+    left: 390px;
+}
+
+.young .green {
+    left: 580px;
+}
+
+.young .cyan {
+    left: 770px;
+}
+
+.young .blue {
+    left: 960px;
+}
+
+.young .purple {
+    left: 1150px;
+}
+
+/*page页*/
+.page {
+    margin-top: 20px;
+    height: 735px;
+    /*overflow: hidden;*/
+    /*position: relative;*/
+}
+
+.page-box {
+    position: relative;
+    /*overflow: hidden;*/
+}
+.page-box .page1{
+    /*display: none;*/
+}
+
+.page h3 {
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+/*第一个界面的内容*/
+.color-swicth li {
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid #E6E6E6;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.page-color .color-swicth .active {
+    display: inline-block;
+    margin-right: 20px;
+    border: 3px solid #999999;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.color-swicth span {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 31px;
+    height: 31px;
+}
+
+.color-swicth .color-red {
+    background-color: #F0757D;
+}
+
+.color-swicth .color-orange {
+    background-color: #FEBA77;
+}
+
+.color-swicth .color-yellow {
+    background-color: #FBDB7D;
+}
+
+.color-swicth .color-green {
+    background-color: #DDED91;
+}
+
+.color-swicth .color-cyan {
+    background-color: #9BE7F1;
+}
+
+.color-swicth .color-blue {
+    background-color: #9CBAF0;
+}
+
+.color-swicth .color-purple {
+    background-color: #B3A5DF;
+}
+
+.page-colorfull {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+.page-colorfull img {
+    width: 100%;
+}
+
+.page-colorfull .colorful-1 {
+    position: absolute;
+    right: 80px;
+    top: -20px;
+    width: 400px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.page-colorfull .colorful-1 img {
+    /*width: 400px;*/
+}
+
+.page-colorfull .colorful-2 {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 300px;
+    z-index: 0;
+    opacity: 0;
+}
+
+.page-colorfull .active .colorful-1 {
+    position: absolute;
+    right: 80px;
+    top: -20px;
+    width: 400px;
+    z-index: 1;
+    opacity: 1;
+}
+
+.page-colorfull .active .colorful-2 {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 300px;
+    z-index: 0;
+    opacity: 1;
+}
+
+
+ .page2 {
+    display: none;
+}
+.page3 {
+    display: none;
+}
+.page3 .color-black span{
+    background-color: #595A5C;
+}
+/*第二个界面内容*/
+
+.color-swicth .color-bone {
+    background-color: #D1B998;
+}
+
+.color-swicth .color-coffee {
+    background-color: #8F7B68;
+}
+
+.color-swicth .color-rose {
+    background-color: #AE5754;
+}
+
+.color-swicth .color-pink {
+    background-color: #EFBEB7;
+}
+
+.color-swicth .color-sand {
+    background-color: #E8CB83;
+}
+
+.color-swicth .color-olive {
+    background-color: #A0A37E;
+}
+
+.color-swicth .color-grass {
+    background-color: #ACCDC0;
+}
+.color-swicth .color-violet {
+    background-color: #867B90;
+}
+
+/*video部分开始*/
+.video-wrap{
+    box-shadow: 100px 150px 300px 0px #E7E7E7 inset;
+}
+
+.video {
+    text-align: center;
+    height: 578px;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-img {
+    position: absolute;
+    /*图片2516*720*/
+    top: -230px;
+    left: -575px;
+    height: 490px;
+}
+
+#video-img1 {
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+#video-img2 {
+    margin: 0 auto;
+    position: absolute;
+    top: -391px;
+    left: 1113px;
+    /*transform: rotate(23deg);*/
+    transform:skew(-47deg,22deg);
+}
+
+.video-content {
+    width: 100%;
+    height: 88px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.video-content h3 {
+    font-size: 38px;
+    line-height: 50px;
+    color: #212121;
+
+}
+
+.video-content h5 {
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.video-content h5 a {
+    font-size: 18px;
+    line-height: 34px;
+    color: #73B3EE;
+}
+
+.human {
+    position: relative;
+    height: 1481px;
+}
+
+.human-left {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.human-right {
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+.human-content {
+    width: 1366px;
+    padding-top: 700px;
+    font-family: FZYouHJW 微软雅黑;
+    text-align: center;
+}
+
+.human-content h3 {
+    font-size: 42px;
+    line-height: 58px;
+    color: #212121;
+}
+
+.human-content h5 {
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.human-content h5 a {
+    font-size: 18px;
+    line-height: 34px;
+    color: #73B3EE;
+}
+
+
+
+
